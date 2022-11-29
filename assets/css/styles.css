@@ -1,0 +1,129 @@
+html, body {
+  height: 100%;
+  background-color: #181818;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.form-control {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.d-flex {
+  margin: 20px;
+}
+.navbar {
+  margin: 3px;
+}
+.row {
+  margin: 3px;
+}
+.span {
+  border: 5px solid white;
+}
+.author {
+  margin-top: 20px;
+}
+.ig {
+  font-size: 40px;
+  float: right;
+}
+.card {
+  border: 1px solid white;
+  padding: 10px;
+  background-color: transparent;
+}
+.bi-github, .bi-instagram {
+  margin-right: 5px;
+  font-size: 35px;
+  float: right;
+}
+.bi-star-fill {
+  color: #f9ff00;
+  font-size: 35px;
+  margin-left: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a { 
+  color: white;
+  margin: 4px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+}
+li {
+  display: inline;
+  font-size: 15px;
+}
+.footer {
+  color: white;
+  text-align: center;
+}
+
+.liveSearchBar, .liveSearchBar li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.liveSearchBar, .liveSearchBar li a{
+  color:#fff;
+  text-decoration:none;
+}
+.list-group-item {
+  background-color: #181818;
+  color: white;
+}
+.list-group-flush {
+  color: white;
+}
+.date {
+  color: #696969;
+  margin-bottom: 40px;
+}
+#live-search fieldset{
+  border:0;
+  padding-left:0;
+}
+:focus{
+  outline:none;
+}
+.text-input{
+  height:30px;
+  background: none;
+  border:1px solid #fff;
+  padding:5px ;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+  color:#fff;
+}
+::-webkit-input-placeholder {
+     color: #fff;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: #fff;  
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #fff;  
+  }
+
+  :-ms-input-placeholder {  
+     color: #fff;  
+  }
